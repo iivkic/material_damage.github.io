@@ -1,0 +1,96 @@
+*{
+
+  justify-content: space-between
+}
+.box {
+
+  padding: 25px 50px 75px;
+}
+ body {
+    background-image: url(https://scontent.fzag2-1.fna.fbcdn.net/v/t31.0-8/18527288_1017256995075707_2115943421651076446_o.jpg?_nc_cat=109&_nc_sid=dd9801&_nc_ohc=7u-n5vBgJmYAX_1xvjS&_nc_ht=scontent.fzag2-1.fna&oh=5cac9e5de070d51f59f25860d77ec7bf&oe=5E93F4C3);
+    background-repeat: no-repeat;
+    background-size:cover;
+  }
+
+  a::before {
+    content: "\21d2 Click here: "
+  }
+  a::after {
+    content: "\21d0"
+  }
+
+h2 {
+
+  color: #ECF631
+
+}
+
+#gile {
+  border-top:4px solid white;
+  border-bottom:4px solid white;
+  border-left: 4px solid white;
+  border-right: 4px solid white;
+  height:365px;
+  width: 400px
+
+}
+
+#bule {
+
+  height:385px
+
+}
+#vale {
+
+  height: 365px;
+  border-top:4px solid white;
+  border-bottom:4px solid white;
+
+}
+
+#zale {
+  border-top:4px solid white;
+  border-bottom:4px solid white;
+  border-left: 4px solid white;
+  border-right: 4px solid white;
+  height: 365px;
+  width: 400px
+}
+
+#krele {
+  border-top:4px solid white;
+  border-bottom:4px solid white;
+  border-left: 4px solid white;
+  border-right: 4px solid white;
+  height: 365px
+
+}
+
+table {
+  background-color:#4D5364;
+  margin-top: 20px;
+  border:7px groove #ECF631;
+  border-radius: 25px;
+  width: 100%;
+}
+
+th {
+
+  font-stretch: expanded;
+  font-size: 20px;
+  font-weight: bold;
+  font-family:Lucida Console;
+  color:#ECF631;
+  align-text: center;
+}
+
+p {
+  margin-bottom: 35px;
+  font-weight: bold;
+  color: #ECF631;
+  font-family:Courier New;
+  font-size: 20px
+}
+p:hover{
+  background-color: #4D5364;
+}
